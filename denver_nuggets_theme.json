@@ -1,0 +1,214 @@
+{
+    "name": "Denver Nuggets",
+    "dataColors": [
+        "#FFC72C",
+        "#1D428A",
+        "#FFD966",
+        "#2E5FA3",
+        "#FFB300",
+        "#0A2463"
+    ],
+    "background": "#000000",
+    "foreground": "#FFFFFF",
+    "tableAccent": "#FFC72C",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "title": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "fontSize": 14,
+                        "fontFamily": "Segoe UI Semibold"
+                    }
+                ],
+                "labels": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#EAEAEA"
+                            }
+                        },
+                        "fontSize": 11
+                    }
+                ],
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#111111"
+                            }
+                        },
+                        "transparency": 5
+                    }
+                ]
+            }
+        },
+        "card": {
+            "*": {
+                "labels": [
+                    {
+                        "fontSize": 28,
+                        "color": {
+                            "solid": {
+                                "color": "#FFC72C"
+                            }
+                        }
+                    }
+                ],
+                "categoryLabels": [
+                    {
+                        "fontSize": 12,
+                        "color": {
+                            "solid": {
+                                "color": "#BBBBBB"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "columnChart": {
+            "*": {
+                "dataPoint": [
+                    {
+                        "defaultColor": {
+                            "solid": {
+                                "color": "#FFC72C"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "barChart": {
+            "*": {
+                "dataPoint": [
+                    {
+                        "defaultColor": {
+                            "solid": {
+                                "color": "#FFC72C"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lineChart": {
+            "*": {
+                "dataPoint": [
+                    {
+                        "defaultColor": {
+                            "solid": {
+                                "color": "#FFC72C"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "areaChart": {
+            "*": {
+                "dataPoint": [
+                    {
+                        "defaultColor": {
+                            "solid": {
+                                "color": "#1D428A"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "tableEx": {
+            "*": {
+                "header": [
+                    {
+                        "fontColor": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        },
+                        "backColor": {
+                            "solid": {
+                                "color": "#FFC72C"
+                            }
+                        },
+                        "fontSize": 12,
+                        "fontFamily": "Segoe UI Semibold"
+                    }
+                ],
+                "rows": [
+                    {
+                        "fontColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backColor": {
+                            "solid": {
+                                "color": "#111111"
+                            }
+                        },
+                        "fontSize": 11
+                    }
+                ],
+                "grid": [
+                    {
+                        "gridVertical": false,
+                        "gridHorizontalColor": {
+                            "solid": {
+                                "color": "#1D428A"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "pivotTable": {
+            "*": {
+                "header": [
+                    {
+                        "fontColor": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        },
+                        "backColor": {
+                            "solid": {
+                                "color": "#FFC72C"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "slicer": {
+            "*": {
+                "data": [
+                    {
+                        "fontColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": "#111111"
+                            }
+                        }
+                    }
+                ],
+                "selection": [
+                    {
+                        "selectAllCheckboxEnabled": true,
+                        "singleSelect": false
+                    }
+                ]
+            }
+        }
+    }
+}

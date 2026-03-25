@@ -149,7 +149,6 @@ FROM player_season_stats
 WHERE player_name IN ('Nikola Jokić', 'Giannis Antetokounmpo')
 ORDER BY avg_impact_score DESC;
 
-   
 
 
 --- 9. Melhores jogos individuais da temporada 

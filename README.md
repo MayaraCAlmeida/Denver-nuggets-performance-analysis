@@ -2,7 +2,7 @@
 
 Análise estratégica do desempenho do Denver Nuggets com foco na correlação entre métricas individuais de Nikola Jokic e os resultados coletivos da equipe. O projeto cobre coleta, limpeza, armazenamento em banco de dados relacional, análise exploratória em Python e visualização no Power BI.
 
----
+------
 
 ## Resumo 
 

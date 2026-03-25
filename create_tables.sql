@@ -105,3 +105,5 @@ CREATE INDEX IF NOT EXISTS idx_gamelogs_date     ON player_gamelogs (game_date);
 CREATE INDEX IF NOT EXISTS idx_gamelogs_team     ON player_gamelogs (team_id);
 CREATE INDEX IF NOT EXISTS idx_games_date        ON games (game_date);
 CREATE INDEX IF NOT EXISTS idx_season_rank       ON player_season_stats (impact_rank);
+
+--

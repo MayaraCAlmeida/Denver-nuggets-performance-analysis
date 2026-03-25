@@ -6,7 +6,7 @@ Análise estratégica do desempenho do Denver Nuggets com foco na correlação e
 
 ## Resumo 
 
-O Denver Nuggets perde por falha coletiva, não por falha de Jokic. Essa é a descoberta central de uma análise com 13 hipóteses, cobrindo temporada regular e playoffs entre 2022 e 2024.
+O Denver Nuggets perde por falha coletiva, não por falha de Jokic. Essa é a descoberta central de uma análise com 13 hipóteses, cobrindo temporada 22-23 regular e playoffs. 
 
 O Game Score de Jokic se mantém estável independentemente do resultado — ele performa no mesmo nível em vitórias e derrotas. O que muda é o time ao redor dele: a eficiência defensiva (DRtg) cai com clareza nos jogos perdidos, o eFG% coletivo recua e o volume de turnovers ofensivos sobe. Quando Jokic distribui bem — jogos com mais de 11 assistências ou com triple-double — a taxa de vitória aumenta de forma expressiva, pois o coletivo arremessa melhor quando ele está no controle do jogo.
 

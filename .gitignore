@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+venv/
+
+# Dados e outputs (não versionar dados brutos nem imagens geradas)
+data/
+output/
+excel/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dados gerados
+denver_nuggets_analise.xlsx
+q0*.csv
+q1*.csv

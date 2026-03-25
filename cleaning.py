@@ -1,6 +1,5 @@
 # Denver Nuggets — Data Cleaning Pipeline
 
-
 import argparse
 import re
 import sys

@@ -6,7 +6,6 @@
 
 # Só consegui rodar assim
 
-
 import os
 import sys
 import argparse

@@ -1,53 +1,3 @@
-<<<<<<< HEAD
-"""
-=======================================================
- Strategic Performance Analysis – Denver Nuggets
- Script 1: Análise Exploratória em Python
-=======================================================
-
-Usage
------
-    python nuggets_analysis.py --input denver_nuggets_clean.csv
-    python nuggets_analysis.py --input denver_nuggets_clean.csv --output ./reports
-"""
-
-import argparse
-from pathlib import Path
-
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib.gridspec as gridspec
-import seaborn as sns
-from scipy import stats
-import warnings
-
-warnings.filterwarnings("ignore")
-
-# ── ARGS ──────────────────────────────────────────────
-parser = argparse.ArgumentParser(
-    description="Strategic Performance Analysis – Denver Nuggets"
-)
-parser.add_argument(
-    "--input", "-i", required=True, help="Caminho para denver_nuggets_clean.csv"
-)
-parser.add_argument(
-    "--output",
-    "-o",
-    default=".",
-    help="Diretório de saída para o PNG (padrão: pasta atual)",
-)
-args = parser.parse_args()
-
-INPUT_PATH = args.input
-OUTPUT_DIR = Path(args.output)
-
-# ── ESTILO ────────────────────────────────────────────
-DENVER_BLUE = "#0E2240"
-DENVER_GOLD = "#FEC524"
-WIN_COLOR = "#2ecc71"
-LOSS_COLOR = "#e74c3c"
-=======
 # Strategic Performance Analysis – Denver Nuggets
 
 import argparse
@@ -69,7 +19,6 @@ DENVER_GOLD = "#FEC524"
 WIN_COLOR = "#27ae60"
 LOSS_COLOR = "#e74c3c"
 GRAY = "#95a5a6"
->>>>>>> 428fafe (script principal com análise estatística)
 
 plt.rcParams.update(
     {

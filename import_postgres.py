@@ -1,6 +1,5 @@
 #  Denver Nuggets — Import CSV → PostgreSQL
 
-
 # Tem que configurar no env a variável de ambiente DATABASE_URL antes de rodar
 # Por exemplo: DATABASE_URL=postgresql://postgres:senha@localhost:5432/DenverNuggets
 # Só consegui assim, não consegui passar a senha diretamente na string de conexão do SQLAlchemy
